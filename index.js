@@ -40,6 +40,6 @@ app.put('/:id', async (req, res) => {
 })
 
 app.listen(3000, () => {
-    mongoose.connect('mongodb+srv://CezarRanieri:0GtajMmsw0WbAkqB@apiusuarios.et2k5.mongodb.net/?retryWrites=true&w=majority&appName=APIUsuarios')
+    mongoose.connect(DATABASE_URL)
     console.log('server funcionado')
 })
