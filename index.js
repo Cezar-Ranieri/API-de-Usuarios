@@ -40,6 +40,6 @@ app.put('/:id', async (req, res) => {
 })
 
 app.listen(3000, () => {
-    mongoose.connect(DATABASE_URL)
+    mongoose.connect(process.env.DATABASE_URL)
     console.log('server funcionado')
 })
