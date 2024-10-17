@@ -24,7 +24,7 @@ Um ID será automaticamente atribuido na requisição.
 
 `DELETE api-de-usuarios-nvuy.onrender.com/:id`
 
-### - Modificar um registo do banco de dados.
+### - Modificar um registro do banco de dados.
 
 `PUT api-de-usuarios-nvuy.onrender.com/:id`
 
