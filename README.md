@@ -30,3 +30,10 @@ Um ID será automaticamente atribuido na requisição.
 
 O Dados devem estar em um formato igual ao da requisição POST, citada acima.
 
+
+
+## Tecnologias Usadas:
+- Javascript (Node.js)
+- Express.js
+- MongoDB
+- Render.com para hospedagem.
